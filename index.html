@@ -38,3 +38,21 @@
 
     <!-- Inserting an image shoing the formulas for finding the diameter and circumference of a circle -->
     <center><img src="./images/formulas.jpg" width="800" length="900"></center>
+
+  <!-- Adding a JavaScript button --> 
+    <script src="./js/script.js"></script>
+    <center>
+    <h1 style="background-color:palevioletred"><font face="Garamond">Circle Program, with a JS file</font></h1>
+    <p>
+      <h3 style="background-color:moccasin"><font face="Garamond">Please enter your information:</font></h3>
+      <form action="javascript:payClicked()">
+        <label for="length">The length of the radius in cm</label>
+        <input type="number" step="any" id="length" placeholder="Length"><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+    	<div id="length"></div>
+			<div id="circumference"></div>
+		</div></center>
