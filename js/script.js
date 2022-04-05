@@ -9,9 +9,8 @@
 // declare constants
 const Pi = Math.PI
 
-/**
- * This function calculates diameter and circumference of a circle
- */
+// This function calculates diameter and circumference of a circle
+ 
 function payClicked () {
   // get user input
   let radius = document.getElementById('length').value
@@ -21,7 +20,9 @@ function payClicked () {
   let circumference = radius * 2 * Pi
 
   // display the results
-  document.getElementById('diameter').innerHTML = "The diameter of the circle would be " + diameter.toFixed(2)
+  document.getElementById('diameter').innerHTML = "The diameter of the circle would be " + diameter.toFixed(2) + " cm"
 
-  document.getElementById('circumference').innerHTML = "The circumference of the circle would be " + circumference.toFixed(2)
+  // display the results
+
+  document.getElementById('circumference').innerHTML = "The circumference of the circle would be " + circumference.toFixed(2) + " cm"
 }

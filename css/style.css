@@ -1,5 +1,5 @@
 /* Created by: Brayden MacMillan
-* Created on: April 2 2022
+* Created on: April 3 2022
 * This CSS file defines the style for index.html
 * ICS2O-Assign-02-Calculations
 */
@@ -62,3 +62,12 @@ body {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 
+#diameter {
+  margin-left: 10%;
+  width: 80%;
+}
+
+#circumference {
+  margin-left:10%;
+  width: 80%;
+}
