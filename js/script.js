@@ -7,21 +7,21 @@
 "use strict"
 
 // declare constants
-const pie = 0.1805
+const Pi = Math.PI
 
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates diameter and circumference of a circle
  */
 function payClicked () {
   // get user input
-  let radius = parseFloat(document.getElementById('length').value)
-  let circumference = parseFloat(document.getElementById('circumference').value)
+  let radius = document.getElementById('length').value
 
   // calculate the diameter and circumference
-  let diameter = length * 2
-  let circumference = length * 2 * Math.PI
+  let diameter = radius * 2
+  let circumference = radius * 2 * Pi
 
   // display the results
-  document.getElementById('diameter').innerHTML = "The diameter of the circle would be" + length * 2
-  document.getElementById('circumference').innerHTML = "The circumference of the circle would be" + length * 2 * Math.PI
+  document.getElementById('diameter').innerHTML = "The diameter of the circle would be " + diameter.toFixed(2)
+
+  document.getElementById('circumference').innerHTML = "The circumference of the circle would be " + circumference.toFixed(2)
 }
